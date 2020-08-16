@@ -7,6 +7,8 @@
 @import 'base/typography';
 @import 'base/utilities';
 
+@import 'components/feature';
+
 @import 'layout/container';
 @import 'layout/features';
 @import 'layout/footer';
@@ -16,3 +18,5 @@
 @import 'layout/realtors';
 @import 'layout/sidebar';
 @import 'layout/story';
+
+@import 'pages/home';

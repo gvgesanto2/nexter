@@ -1,5 +1,10 @@
 .features {
   grid-column: center-start / center-end;
 
-  background: $dark-grey-color-2;
+  @supports (display: grid) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 6rem;
+    align-items: start;
+  }
 }
